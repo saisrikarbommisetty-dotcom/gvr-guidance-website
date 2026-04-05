@@ -32,12 +32,13 @@ const Index = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-[center_top] md:bg-center"
-          style={{ backgroundImage: `url(${heroBanner})` }}
-        >
+        <img
+  src={heroBanner}
+  alt="Dr. G. V. Ramana Reddy"
+  className="absolute inset-0 w-full h-full object-cover object-top md:object-center"
+/>
           <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-secondary/80" />
-        </div>
+        
         
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
           <h1 className="font-heading font-bold text-4xl md:text-6xl lg:text-7xl mb-6 animate-in fade-in slide-in-from-bottom duration-700">
