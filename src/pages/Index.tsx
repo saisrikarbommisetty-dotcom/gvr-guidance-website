@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ServiceCard } from "@/components/ServiceCard";
 import { StatCounter } from "@/components/StatCounter";
 import heroBanner from "@/assets/hero-banner.jpg";
+import heroMobile from "@/assets/hero-mobile.jpg";
 
 const Index = () => {
   const services = [
@@ -32,12 +33,22 @@ const Index = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
-        <img
+       {/* Desktop Image */}
+<img
   src={heroBanner}
   alt="Dr. G. V. Ramana Reddy"
-  className="absolute inset-0 w-full h-full object-cover object-top md:object-center"
+  className="absolute inset-0 w-full h-full object-cover hidden md:block"
 />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-secondary/80" />
+
+{/* Mobile Image */}
+<img
+  src={heroMobile}
+  alt="Dr. G. V. Ramana Reddy"
+  className="absolute inset-0 w-full h-full object-cover object-center md:hidden"
+/>
+
+{/* Gradient Overlay */}
+<div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-secondary/80" />
         
         
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
