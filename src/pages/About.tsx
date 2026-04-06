@@ -111,7 +111,7 @@ const About = () => {
 
       <div className="bg-card p-6 rounded-2xl shadow hover:shadow-xl transition-all">
         <h3 className="text-3xl font-bold text-primary">100+</h3>
-        <p className="text-sm text-muted-foreground mt-2">Workshops Conducted</p>
+        <p className="text-sm text-muted-foreground mt-2">Workshops Certifications</p>
       </div>
 
       <div className="bg-card p-6 rounded-2xl shadow hover:shadow-xl transition-all">
