@@ -181,7 +181,7 @@ const About = () => {
       </p>
     </div>
 
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
       {/* Card 1 */}
       <div className="bg-card rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
@@ -233,6 +233,27 @@ const About = () => {
           </p>
         </div>
       </div>
+
+      {/* Card 4 */}
+    
+    <div className="bg-card rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+        <div className="absolute top-3 right-3 bg-white/90 text-xs px-3 py-1 rounded-full font-medium text-primary shadow">
+      Verified Credential
+    </div>
+      <img
+        src="/award4.jpg"
+        alt="ISTE Life Membership Certificate"
+        className="w-full h-72 object-contain bg-white p-2"
+      />
+      <div className="p-5">
+        <h3 className="font-semibold text-lg text-primary mb-2">
+          ISTE Life Membership
+        </h3>
+        <p className="text-sm text-muted-foreground">
+          Awarded Life Membership by the Indian Society for Technical Education (ISTE) in recognition of sustained contributions to advancing quality and standards in technical education.
+        </p>
+      </div>
+    </div>
 
     </div>
 
