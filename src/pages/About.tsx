@@ -82,7 +82,7 @@ const About = () => {
       </p>
     </div>
 
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 text-center">
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-6 text-center">
 
       <div className="bg-card p-6 rounded-2xl shadow hover:shadow-xl transition-all">
         <h3 className="text-3xl font-bold text-primary">15+</h3>
@@ -112,6 +112,11 @@ const About = () => {
       <div className="bg-card p-6 rounded-2xl shadow hover:shadow-xl transition-all">
         <h3 className="text-3xl font-bold text-primary">100+</h3>
         <p className="text-sm text-muted-foreground mt-2">Workshops Certifications</p>
+      </div>
+
+      <div className="bg-card p-6 rounded-2xl shadow hover:shadow-xl transition-all">
+        <h3 className="text-3xl font-bold text-primary">6</h3>
+        <p className="text-sm text-muted-foreground mt-2">NPTEL Certifications</p>
       </div>
 
       <div className="bg-card p-6 rounded-2xl shadow hover:shadow-xl transition-all">
