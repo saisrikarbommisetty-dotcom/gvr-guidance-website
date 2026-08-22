@@ -297,7 +297,7 @@ const About = () => {
           <img
             src="/career-resources/top-vlsi-companies.jpg"
             alt="Top 25 VLSI Companies"
-            className="w-full h-[720px] object-cover
+            className="w-full h-[720px] object-contain
                        group-hover:scale-105 transition-transform duration-500"
           />
 
@@ -341,7 +341,7 @@ const About = () => {
           <img
             src="/career-resources/future-scope-ece.jpg"
             alt="Future Scope of ECE"
-            className="w-full h-[720px] object-cover
+            className="w-full h-[720px] object-contain
                        group-hover:scale-105 transition-transform duration-500"
           />
 
@@ -385,7 +385,7 @@ const About = () => {
           <img
             src="/career-resources/choose-ece.jpg"
             alt="Build Your Future Choose ECE"
-            className="w-full h-[720px] object-cover
+            className="w-full h-[720px] object-contain
                        group-hover:scale-105 transition-transform duration-500"
           />
 
@@ -429,7 +429,7 @@ const About = () => {
           <img
             src="/career-resources/internship-programs.jpg"
             alt="VLSI Embedded Systems and Python Internship Programs"
-            className="w-full h-[720px] object-cover
+            className="w-full h-[720px] object-contain
                        group-hover:scale-105 transition-transform duration-500"
           />
 
@@ -473,7 +473,7 @@ const About = () => {
           <img
             src="/career-resources/admissions-2026-27.jpg"
             alt="Admissions Open 2026-27"
-            className="w-full h-[720px] object-cover
+            className="w-full h-[720px] object-contain
                        group-hover:scale-105 transition-transform duration-500"
           />
 
