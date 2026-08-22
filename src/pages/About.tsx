@@ -264,6 +264,276 @@ const About = () => {
 
   </div>
 </section>
+
+{/* Career Resources & Opportunities */}
+<section className="py-20 bg-muted/30">
+  <div className="container mx-auto px-4">
+
+    {/* Section Heading */}
+    <div className="text-center mb-12">
+      <h2 className="font-heading font-bold text-3xl md:text-5xl text-primary mb-4">
+        Career Resources & Opportunities
+      </h2>
+
+      <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+        Explore career opportunities, industry insights, academic pathways,
+        and internship programs to build a successful future.
+      </p>
+    </div>
+
+    {/* Resource Cards */}
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      {/* Card 1 - VLSI Companies */}
+      <a
+        href="/career-resources/top-vlsi-companies.jpg"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group bg-card rounded-2xl shadow-lg overflow-hidden
+                   hover:shadow-2xl hover:-translate-y-2
+                   transition-all duration-300"
+      >
+        <div className="relative overflow-hidden">
+          <img
+            src="/career-resources/top-vlsi-companies.jpg"
+            alt="Top 25 VLSI Companies"
+            className="w-full h-[720px] object-cover
+                       group-hover:scale-105 transition-transform duration-500"
+          />
+
+          <div className="absolute inset-0 bg-gradient-to-t
+                          from-black/70 via-transparent to-transparent
+                          opacity-0 group-hover:opacity-100
+                          transition-opacity duration-300" />
+
+          <span className="absolute bottom-4 left-1/2 -translate-x-1/2
+                           bg-primary text-primary-foreground
+                           px-5 py-2 rounded-full text-sm font-semibold
+                           opacity-0 group-hover:opacity-100
+                           transition-opacity duration-300 whitespace-nowrap">
+            View Full Poster →
+          </span>
+        </div>
+
+        <div className="p-6">
+          <h3 className="font-heading font-bold text-xl text-primary mb-2">
+            Top 25 VLSI Companies
+          </h3>
+
+          <p className="text-muted-foreground text-sm leading-relaxed">
+            Discover leading semiconductor and VLSI companies shaping
+            the future of the electronics industry.
+          </p>
+        </div>
+      </a>
+
+
+      {/* Card 2 - Future Scope of ECE */}
+      <a
+        href="/career-resources/future-scope-ece.jpg"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group bg-card rounded-2xl shadow-lg overflow-hidden
+                   hover:shadow-2xl hover:-translate-y-2
+                   transition-all duration-300"
+      >
+        <div className="relative overflow-hidden">
+          <img
+            src="/career-resources/future-scope-ece.jpg"
+            alt="Future Scope of ECE"
+            className="w-full h-[720px] object-cover
+                       group-hover:scale-105 transition-transform duration-500"
+          />
+
+          <div className="absolute inset-0 bg-gradient-to-t
+                          from-black/70 via-transparent to-transparent
+                          opacity-0 group-hover:opacity-100
+                          transition-opacity duration-300" />
+
+          <span className="absolute bottom-4 left-1/2 -translate-x-1/2
+                           bg-primary text-primary-foreground
+                           px-5 py-2 rounded-full text-sm font-semibold
+                           opacity-0 group-hover:opacity-100
+                           transition-opacity duration-300 whitespace-nowrap">
+            View Full Poster →
+          </span>
+        </div>
+
+        <div className="p-6">
+          <h3 className="font-heading font-bold text-xl text-primary mb-2">
+            Future Scope of ECE
+          </h3>
+
+          <p className="text-muted-foreground text-sm leading-relaxed">
+            Explore emerging career opportunities in VLSI, AI hardware,
+            IoT, embedded systems, robotics, space technology, and more.
+          </p>
+        </div>
+      </a>
+
+
+      {/* Card 3 - Choose ECE */}
+      <a
+        href="/career-resources/choose-ece.jpg"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group bg-card rounded-2xl shadow-lg overflow-hidden
+                   hover:shadow-2xl hover:-translate-y-2
+                   transition-all duration-300"
+      >
+        <div className="relative overflow-hidden">
+          <img
+            src="/career-resources/choose-ece.jpg"
+            alt="Build Your Future Choose ECE"
+            className="w-full h-[720px] object-cover
+                       group-hover:scale-105 transition-transform duration-500"
+          />
+
+          <div className="absolute inset-0 bg-gradient-to-t
+                          from-black/70 via-transparent to-transparent
+                          opacity-0 group-hover:opacity-100
+                          transition-opacity duration-300" />
+
+          <span className="absolute bottom-4 left-1/2 -translate-x-1/2
+                           bg-primary text-primary-foreground
+                           px-5 py-2 rounded-full text-sm font-semibold
+                           opacity-0 group-hover:opacity-100
+                           transition-opacity duration-300 whitespace-nowrap">
+            View Full Poster →
+          </span>
+        </div>
+
+        <div className="p-6">
+          <h3 className="font-heading font-bold text-xl text-primary mb-2">
+            Build Your Future with ECE
+          </h3>
+
+          <p className="text-muted-foreground text-sm leading-relaxed">
+            Understand private and government career opportunities,
+            job roles, and professional pathways available after ECE.
+          </p>
+        </div>
+      </a>
+
+
+      {/* Card 4 - Internship Programs */}
+      <a
+        href="/career-resources/internship-programs.jpg"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group bg-card rounded-2xl shadow-lg overflow-hidden
+                   hover:shadow-2xl hover:-translate-y-2
+                   transition-all duration-300"
+      >
+        <div className="relative overflow-hidden">
+          <img
+            src="/career-resources/internship-programs.jpg"
+            alt="VLSI Embedded Systems and Python Internship Programs"
+            className="w-full h-[720px] object-cover
+                       group-hover:scale-105 transition-transform duration-500"
+          />
+
+          <div className="absolute inset-0 bg-gradient-to-t
+                          from-black/70 via-transparent to-transparent
+                          opacity-0 group-hover:opacity-100
+                          transition-opacity duration-300" />
+
+          <span className="absolute bottom-4 left-1/2 -translate-x-1/2
+                           bg-primary text-primary-foreground
+                           px-5 py-2 rounded-full text-sm font-semibold
+                           opacity-0 group-hover:opacity-100
+                           transition-opacity duration-300 whitespace-nowrap">
+            View Internship Details →
+          </span>
+        </div>
+
+        <div className="p-6">
+          <h3 className="font-heading font-bold text-xl text-primary mb-2">
+            Internship Programs
+          </h3>
+
+          <p className="text-muted-foreground text-sm leading-relaxed">
+            Gain practical experience through VLSI, Embedded Systems,
+            and Python internship programs with hands-on training.
+          </p>
+        </div>
+      </a>
+
+
+      {/* Card 5 - Admissions */}
+      <a
+        href="/career-resources/admissions-2026-27.jpg"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group bg-card rounded-2xl shadow-lg overflow-hidden
+                   hover:shadow-2xl hover:-translate-y-2
+                   transition-all duration-300"
+      >
+        <div className="relative overflow-hidden">
+          <img
+            src="/career-resources/admissions-2026-27.jpg"
+            alt="Admissions Open 2026-27"
+            className="w-full h-[720px] object-cover
+                       group-hover:scale-105 transition-transform duration-500"
+          />
+
+          <div className="absolute inset-0 bg-gradient-to-t
+                          from-black/70 via-transparent to-transparent
+                          opacity-0 group-hover:opacity-100
+                          transition-opacity duration-300" />
+
+          <span className="absolute bottom-4 left-1/2 -translate-x-1/2
+                           bg-primary text-primary-foreground
+                           px-5 py-2 rounded-full text-sm font-semibold
+                           opacity-0 group-hover:opacity-100
+                           transition-opacity duration-300 whitespace-nowrap">
+            View Admissions →
+          </span>
+        </div>
+
+        <div className="p-6">
+          <h3 className="font-heading font-bold text-xl text-primary mb-2">
+            Admissions Open 2026–27
+          </h3>
+
+          <p className="text-muted-foreground text-sm leading-relaxed">
+            Explore B.Tech, M.Tech, MBA, MCA, and B.Pharmacy programs
+            and choose the right path for your future.
+          </p>
+        </div>
+      </a>
+
+    </div>
+
+    {/* Bottom CTA */}
+    <div className="mt-12 text-center">
+      <div className="inline-flex flex-col sm:flex-row items-center gap-4
+                      bg-primary/10 rounded-2xl px-8 py-5">
+
+        <div>
+          <p className="font-semibold text-primary text-lg">
+            Need guidance for your career?
+          </p>
+
+          <p className="text-sm text-muted-foreground">
+            Get personalized guidance to choose the right career path.
+          </p>
+        </div>
+
+        <a
+          href="/contact"
+          className="bg-primary text-primary-foreground
+                     px-6 py-3 rounded-full font-semibold
+                     hover:scale-105 transition-transform duration-300"
+        >
+          Get Guidance →
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+</section>
     </div>
   );
 };
